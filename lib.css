@@ -15,20 +15,14 @@
   cursor: pointer;
   border-radius: 4px;
 }
-
-.success {background-color: #4CAF50;} /* Green */
-.success:hover {background-color: #46a049;}
-
-.info {background-color: #2196F3;} /* Blue */
-.info:hover {background: #0b7dda;}
-
-.warning {background-color: #ff9800;} /* Orange */
-.warning:hover {background: #e68a00;}
-
-.danger {background-color: #f44336;} /* Red */
-.danger:hover {background: #da190b;}
-
-.default {background-color: #e7e7e7; color: black;} /* Gray */
-.default:hover {background: #ddd;}
-
+.green {background-color: #4CAF50;}
+.green:hover {background-color: #46a049;}
+.blue {background-color: #2196F3;}
+.blue:hover {background: #0b7dda;}
+.orange {background-color: #ff9800;}
+.orange:hover {background: #e68a00;}
+.red {background-color: #f44336;}
+.red:hover {background: #da190b;}
+.gray {background-color: #e7e7e7; color: black;}
+.gray:hover {background: #ddd;}
 /* .Buttons */

@@ -1,15 +1,26 @@
 /* Colors */
+
 :root {
-  --red: #9b0e38;
-  --blue: #0e339b;
-  --green: #0e9b49;
-  --yellow: #e6bd08;
-  --black: #000000;
-  --white: #ffffff;
+    --black: #000000;
+    --black-hover: #222222;
+    --white: #ffffff;
+    --white-hover: #eeeeee;
+    --gray: #e7e7e7;
+    --gray-hover: #dddddd;
+    --red: #f44336;
+    --red-hover: #da190b;
+    --blue: #2196F3;
+    --blue-hover: #0b7dda;
+    --green: #4CAF50;
+    --green-hover: #46a049;
+    --yellow: #e6bd08;
+    --yellow-hover: #c2a00b;
+    --orange: #ff9800;
+    --orange-hover: #e68a00;
 }
 
 .sans {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .b {
@@ -20,49 +31,92 @@
     cursor: pointer;
 }
 
+
 /* Buttons */
+
 .btn {
-  border: none;
-  color: white;
-  padding: 8px 16px;
-  font-size: 14px;
-  cursor: pointer;
-  border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
 }
-.green {background-color: #4CAF50;}
-.green:hover {background-color: #46a049;}
-.blue {background-color: #2196F3;}
-.blue:hover {background: #0b7dda;}
-.orange {background-color: #ff9800;}
-.orange:hover {background: #e68a00;}
-.red {background-color: #f44336;}
-.red:hover {background: #da190b;}
-.gray {background-color: #e7e7e7; color: black;}
-.gray:hover {background: #ddd;}
+
+.green {
+    background-color: var(--green);
+}
+
+.green:hover {
+    background-color: var(--green-hover);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.blue:hover {
+    background: var(--blue-hover);
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+.orange:hover {
+    background: var(--orange-hover);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.red:hover {
+    background: var(--red-hover);
+}
+
+.gray {
+    background-color: var(--gray);
+    color: black;
+}
+
+.gray:hover {
+    background: var(--gray-hover);
+}
+
+
 /* .Buttons */
 
 .shadow {
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
 }
+
 
 /* Backgrounds */
-.bg-w {
-  background: var(--white);
-}
-.bg-x {
-  background: var(--black);
-}
-.blu {
-  background: var(--blue);
-}
-.red {
-  background: var(--red);
-}
-.grn {
-  background: var(--green);
-}
-.ylw {
-  background: var(--yellow);
-}
-/* .Backgrounds */
 
+.bg-w {
+    background: var(--white);
+}
+
+.bg-x {
+    background: var(--black);
+}
+
+.blu {
+    background: var(--blue);
+}
+
+.red {
+    background: var(--red);
+}
+
+.grn {
+    background: var(--green);
+}
+
+.ylw {
+    background: var(--yellow);
+}
+
+
+/* .Backgrounds */

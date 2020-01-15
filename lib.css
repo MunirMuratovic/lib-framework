@@ -1,3 +1,17 @@
+/* Colors */
+:root {
+  --red: #9b0e38;
+  --blue: #0e339b;
+  --green: #0e9b49;
+  --yellow: #e6bd08;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+.sans {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .b {
     font-weight: bold;
 }
@@ -26,3 +40,29 @@
 .gray {background-color: #e7e7e7; color: black;}
 .gray:hover {background: #ddd;}
 /* .Buttons */
+
+.shadow {
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+/* Backgrounds */
+.bg-w {
+  background: var(--white);
+}
+.bg-x {
+  background: var(--black);
+}
+.blu {
+  background: var(--blue);
+}
+.red {
+  background: var(--red);
+}
+.grn {
+  background: var(--green);
+}
+.ylw {
+  background: var(--yellow);
+}
+/* .Backgrounds */
+

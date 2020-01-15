@@ -37,11 +37,7 @@
 /* Transition animations */
 
 .bg-anim {
-    transition: var(--update-bg) 1s;
-}
-
-.bg-anim {
-    transition: var(--update-bg) 1s;
+    transition: var(--update-bg) .5s;
 }
 
 
